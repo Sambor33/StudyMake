@@ -15,7 +15,6 @@ private:
     int SpaceNum(const wstring&text);
     int TextCheck (const wstring&text);
 public:
-    MarshCipher()=delete;
     MarshCipher(const int &key);
     wstring Encryct(const wstring&text);
     wstring Decryct(const wstring&text);
